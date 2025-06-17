@@ -1,0 +1,351 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#lista{
+    position: fixed;
+    margin-top: -900px;
+    z-index: 4;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+#escrita{
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: -500px;
+    height: 80px;
+    width: 200px;
+    z-index: 3;
+}
+#escrita2{
+  margin-left: 1000px;
+    color: aliceblue;
+    margin-top: 100px;
+    height: 100px;
+    width: 500px;
+    z-index: 2;
+}
+div{
+    height: 2000px;
+        background-color: #4b1d20;
+}
+
+
+#hst1{
+    position: absolute;
+    z-index: 1;
+    height: 60px;
+    width: 300px;
+    background-color: #2f1315;
+    text-align: center;
+    color: white;
+    margin-top: -900px;
+}
+
+#hst2{
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width:600px;
+    background-color: #83383d;
+     opacity: 0.9;
+    color: white;
+  margin-top: -700px;
+    margin-left: 40px;
+    text-align-last: center;
+}
+#f1{
+    position: absolute;
+    z-index: 1;
+    height: 60px;
+    width: 300px;
+    background-color: #2f1315;
+    text-align: center;
+    color: white;
+    margin-top: -600px;
+    margin-left: 800px;
+}
+#f2{
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width:600px;
+    background-color: #83383d;
+     opacity: 0.9;
+    color: white;
+    margin-top: -500px;
+    margin-left: 800px;
+    text-align-last: center;
+}
+#dono{
+    margin-top: 60px;
+    margin-left:  20px;
+}
+#fundo{
+    position: absolute;
+     margin-top: -300px;
+     margin-left: -350px;
+     z-index: -1;
+    opacity: 30%;
+}
+#meio{
+      height: 1200px;
+    width: 1600px;
+    margin-left: -1px;
+    margin-top: 200px;
+}
+#sexclusivo{
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+#p{
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width:600px;
+    color: white;
+    margin-top: 600px;
+    margin-left: 400px;
+    text-align-last: center;
+}
+#p1{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 650px;
+    height: 50px;
+    width: 90px;
+    z-index: 3;
+}
+
+#img{
+    z-index: 2;
+    position: absolute;
+    margin-top: 200px;
+    margin-left:500px;
+     height: 70px;
+    width:100px;
+}
+#tudo{
+    height: 800px;
+    width: 1400px;
+    margin-left: 0;
+    margin-top: -150px;
+}
+ 
+#pro{
+     position: absolute;
+        z-index: 1;
+        font-size: 55px;
+        color: white;
+        margin-top: 130px;
+        margin-left: 600px;
+}
+
+    .leg{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        width: 70px;
+    }
+    #le{
+        font-size: 20px;
+        color: white;
+    }
+    #img1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 230px;
+        margin-left: 250px;
+        
+    }
+    #img2{
+        position: absolute;
+        z-index: 1;
+        margin-left: 650px;
+        margin-top: 230px;
+    }
+    #img3{
+        position: absolute;
+        z-index: 1;
+        margin-left: 1050px;
+        margin-top: 230px;
+    }
+    #img4{
+        position: absolute;
+        z-index: 1;
+        margin-left: 250px;
+        margin-top: 530px;
+    }
+     #img5{
+        position: absolute;
+        z-index: 1;
+        margin-left: 650px;
+        margin-top: 530px;
+    }
+     #img6{
+        position: absolute;
+        z-index: 1;
+        margin-left: 1050px;
+        margin-top: 530px;
+    }
+   #pfinal{
+      height: 1200px;
+    width: 1600px;
+    margin-top: 10px;
+    margin-left: -100px;
+   }
+  #ri{
+    z-index: 3;
+    color: white;
+    position: absolute;
+     margin-top: 100px;
+    margin-left: 100px;
+    width: 150px;
+    height: 40px;
+
+  }
+    #br{
+        position: absolute;
+        color: white;
+        margin-top: 200px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+    }
+
+    #unid{
+        position: absolute;
+        font-size: 40px;
+        color: white;
+        margin-top: 290px;
+        margin-left: 100px;
+        height: 50px;
+    }
+
+    #vc{
+        position: absolute;
+        font-size: 28px;
+        color: white;
+        margin-top: 350px;
+        margin-left: 100px;
+        height: 50px;
+    }
+
+    #quad{
+        position: absolute;
+        z-index: 1;
+        background-color:  #2f1315;
+        margin-top: 450px;
+        margin-left: 110px;
+        font-size: 30px;
+        color: white;
+        border-radius: 54px;
+        width: 400px;
+        height: 80px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    #arroba{
+        position: absolute;
+        font-size:  20px;
+        color: white;
+        margin-top: 540px;
+        margin-left: 200px;
+        height: 6px;
+    }
+
+    #fim{
+        position: absolute;
+        font-size:  17px;
+        color: white;
+        margin-top: 800px;
+        margin-left: 80px;
+        height: 90px;
+        width: 500px;
+        z-index: 3;
+    }
+
+    #ent{
+        position: absolute;
+        color: white;
+        margin-top: 600px;
+        margin-left: 40px;
+        height: 400px;
+        width: 500px;
+    }
+
+    #logo1{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left:10px;
+         height: 60px;
+        width: 90px;
+    }
+
+    #logo2{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+     margin-top: 20px;
+        margin-left: 80px;
+         height: 60px;
+        width: 90px;
+    }
+
+    #logo3{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+         margin-top: 20px;
+        margin-left: 200px;
+         height: 60px;
+        width: 90px;
+    }
+
+    #logo4{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+         margin-top: 20px;
+        margin-left: 300px;
+         height: 60px;
+        width: 90px;
+    }
+
+    #logo5{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+         margin-top: 20px;
+        margin-left: 400px;
+         height: 60px;
+        width: 90px;
+    }
+
+    #logo6{
+        position: absolute;
+        display: inline-block;
+        justify-content: space-between;
+         margin-top: 20px;
+        margin-left: 500px;
+        height: 60px;
+        width: 90px;
+    }
